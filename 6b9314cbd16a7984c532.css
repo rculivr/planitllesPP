@@ -1,0 +1,182 @@
+body {
+  font-family: "Arial", sans-serif;
+  position: relative;
+  margin: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.inputButton {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+}
+
+.inputButton:hover {
+  background-color: #005a9e;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.selector {
+  width: 100%;
+  clear: both;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputContainer {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  clear: both;
+}
+
+.inputContainer input {
+  width: 100%;
+  clear: both;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-section {
+  margin-top: 10px;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 6px;
+  display: block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkmark {
+  margin-top: 12px;
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  background-color: #eee;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: Arial;
+}
+
+.tablink {
+  background-color: #005a9e;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 50%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: block;
+  /*flex-direction: column;*/
+  padding: 10px;
+  height: 100%;
+  border: 1px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 15px 40px 15px 20px; /* extra right padding for the close button */
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  margin-top: 5px;
+  position: relative;
+}
+
+.error-message .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #721c24;
+  cursor: pointer;
+}
+
+.error-message .close-btn:hover {
+  color: #a71d2a;
+}
+
+#toggleFormBtn {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+}
+
+#toggleFormBtn:hover {
+  background-color: #005a9e;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#toggleEditModeBtn {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 60px;
+  height: 30px;
+}
+
+#toggleEditModeBtn:hover {
+  background-color: #005a9e;
+}
